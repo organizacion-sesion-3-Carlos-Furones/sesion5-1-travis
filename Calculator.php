@@ -16,12 +16,13 @@ class Calculator
     {
         return $a / $b;
     }
-    public function esPar($a): boolean
+    public function esPar($a): bool
     {
-        if($a%2==0)
-            return true;
-        else
-            return false;
+	if($a%2==0) {
+		return true;
+	} else {
+		return false;
+	}
     } 
  
 }
